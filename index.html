@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/style-reset.css" />
+    <link rel="stylesheet" href="./public/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Floris Shop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="intro container">
+        <div class="navbar">
+          <div class="navbar__toggle"><span class="material-symbols-outlined"> menu </span></div>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Про нас</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Каталог</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Доставка</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <div class="intro__body">
+          <h1 class="intro__title">Floris Shop</h1>
+          <p class="intro__text">Букети для особливих моментів твого життя</p>
+          <p class="intro__geo"><span class="material-symbols-outlined"> home_pin </span>Львів</p>
+        </div>
+        <div class="intro__row">
+          <button class="buy-button">Замовити</button>
+        </div>
+      </div>
+      <div class="about container">
+        <h2>Про нас</h2>
+        <div class="about__row">
+          <div class="about__article">
+            <p class="about__text">
+              Привіт! Floris Shop - це флористична крамниця в серці міста Лева. <br /><br />
+              Щодня ми створюємо незабутні букети, оформлюємо весілля мрії та прикрашаємо улюблені заклади нашого міста. <br /><br />
+              Наш букет - це окрема історія, яку ми розповідаємо отримувачу за допомогою квітів та декоративних елементів. <br /><br />
+              Щодня ми стежимо за новими трендами у флористиці та вдосконалюємо свої вміння. Здається, в нас це непогано виходить.
+            </p>
+            <br />
+            <p class="about__subtext">Переконайтесь у цьому самі!</p>
+            <a class="about__link link" href="#Catalog">Обрати букет<span class="material-symbols-outlined"> expand_more </span></a>
+          </div>
+          <div class="about__image"></div>
+        </div>
+      </div>
+      <div class="catalog container" id="Catalog">
+        <h2>Каталог</h2>
+        <div class="catalog__body">
+          <ul class="catalog__filter">
+            <li class="catalog__category">Всі букети</li>
+            <li class="catalog__category">Авторські букети</li>
+            <li class="catalog__category">Весільні букети</li>
+          </ul>
+          <div class="catalog__items">
+            <div class="catalog__item">
+              <img class="catalog__image" src="./img/catalog/item__1.jpg" alt="item__1" />
+              <p class="catalog__name">Rose Kiss</p>
+              <p class="catalog__price">800 UAH</p>
+              <button class="catalog__button buy-button">Замовити</button>
+            </div>
+            <div class="catalog__item">
+              <img class="catalog__image" src="./img/catalog/item__1.jpg" alt="item__1" />
+              <p class="catalog__name">Rose Kiss</p>
+              <p class="catalog__price">800 UAH</p>
+              <button class="catalog__button buy-button">Замовити</button>
+            </div>
+            <div class="catalog__item">
+              <img class="catalog__image" src="./img/catalog/item__1.jpg" alt="item__1" />
+              <p class="catalog__name">Rose Kiss</p>
+              <p class="catalog__price">800 UAH</p>
+              <button class="catalog__button buy-button">Замовити</button>
+            </div>
+            <div class="catalog__item">
+              <img class="catalog__image" src="./img/catalog/item__1.jpg" alt="item__1" />
+              <p class="catalog__name">Rose Kiss</p>
+              <p class="catalog__price">800 UAH</p>
+              <button class="catalog__button buy-button">Замовити</button>
+            </div>
+          </div>
+          <button class="link" id="showMore">Показати більше<span class="material-symbols-outlined"> expand_more </span></button>
+        </div>
+      </div>
+      <div class="delivery container">
+        <h2 class="delivery__title">Доставка</h2>
+        <div class="delivery__main">
+          <div class="delivery__column">
+            <div class="delivery__article">
+              <h3 class="delivery__type">Доставка</h3>
+              <p class="delivery__text">
+                Ми доставляємо наші букети по місту та предмістю.
+                <br /><br />
+                Зазвичай доставка займає 2-3 години з моменту замовлення (окрім святкових днів).
+              </p>
+              <p>Вартість доставки складає 150 UAH.</p>
+            </div>
+            <div class="delivery__image"></div>
+          </div>
+          <div class="delivery__column">
+            <div class="delivery__image"></div>
+            <div class="delivery__article">
+              <h3 class="delivery__type">Самовивіз</h3>
+              <p class="delivery__text">
+                Свій букет ви можете забрати самостійно в нашій крамниці.
+                <br /><br />
+                Адреса: м. Львів, пр-т Свободи, 22
+              </p>
+              <p>График роботи: ПН-НД з 10:00 до 21:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts-bg">
+        <div class="contacts container">
+          <h2>Контакти</h2>
+          <div class="contacts__body">
+            <div class="contacts__text">
+              <p>Адреса: м. Львів, пр-т Свободи, 22</p>
+              <p>График роботи: ПН-НД з 10:00 до 21:00</p>
+              <p>Номер телефону: +380 67 777 77 77</p>
+              <p>E-mail: floris.shop@gmail.com</p>
+              <p>Соціальні мережі:</p>
+              <div class="contacts__social">
+                <a href="#"><img src="./img/social/insagram.png" alt="insagram" /></a>
+                <a href="#"><img src="./img/social/facebook.png" alt="facebook" /></a>
+                <a href="#"><img src="./img/social/WhatsApp.png" alt="WhatsApp" /></a>
+              </div>
+            </div>
+            <div class="contacts__map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2163.584889239517!2d24.025370164665595!3d49.84338677630593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add728ad6070b%3A0xdcbbb1a0fb007aa6!2z0L_RgNC-0YHQvy4g0KHQstC-0LHQvtC00YssIDIyLCDQm9GM0LLQvtCyLCDQm9GM0LLQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDc5MDAw!5e0!3m2!1sru!2sua!4v1655390422288!5m2!1sru!2sua"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer__column">Всі права захищено</div>
+          <div class="footer__column">м. Львів, пр-т Свободи, 22</div>
+          <div class="footer__column">+380 67 777 77 77</div>
+          <div class="footer__row">
+            <a href="#"><img src="./img/social/insagram.png" alt="insagram" /></a>
+            <a href="#"><img src="./img/social/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="./img/social/WhatsApp.png" alt="WhatsApp" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./public/script.js"></script>
+  </body>
+</html>
